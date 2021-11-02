@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: mail.yandex.TestMail
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 16.571 s <<< FAILURE! - in mail.yandex.TestMail
+sendingMessage(mail.yandex.TestMail)  Time elapsed: 16.339 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'HeadBanner-ButtonsWrapper']//span[contains (text(), 'Войти')]//ancestor::a"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-rc-1', revision: 'bc5511cbda'
+System info: host: 'WIN-6QBI55CVF3C', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a8aeebb8b169b54af33efbd936538077, findElement {using=xpath, value=//div[@class = 'HeadBanner-ButtonsWrapper']//span[contains (text(), 'Войти')]//ancestor::a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60553/devtoo..., se:cdpVersion: 95.0.4638.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a8aeebb8b169b54af33efbd936538077
+	at mail.yandex.TestMail.sendingMessage(TestMail.java:46)
+
